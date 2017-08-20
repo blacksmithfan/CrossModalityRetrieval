@@ -68,7 +68,7 @@ close all
 
 
 
-for iter=1:2
+for iter=1:15
     marginal_gain=zeros(size(X,1),1);
     pre_total_dist=zeros(size(X,1),1);
     parfor i=1:size(X,1)
